@@ -8,7 +8,6 @@ import { MyApp } from './app.component';
 import { FavoritesPage } from '../pages/favorites/favorites';
 import { LibraryPage } from '../pages/library/library';
 import { QuotePage } from '../pages/quote/quote';
-import { QuotesPage } from '../pages/quotes/quotes';
 import { TabsPage } from '../pages/tabs/tabs';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { TabsPage } from '../pages/tabs/tabs';
     FavoritesPage,
     LibraryPage,
     QuotePage,
-    QuotesPage,
     TabsPage
   ],
   imports: [
@@ -30,7 +28,6 @@ import { TabsPage } from '../pages/tabs/tabs';
     FavoritesPage,
     LibraryPage,
     QuotePage,
-    QuotesPage,
     TabsPage
   ],
   providers: [

@@ -10,7 +10,6 @@ import { LibraryPage } from '../library/library';
             <ion-tab [root]="libraryPage" tabTitle="Library" tabIcon="book"></ion-tab>
         </ion-tabs> 
     `
-
 })
 
 export class TabsPage {
