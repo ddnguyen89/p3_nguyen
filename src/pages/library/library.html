@@ -12,12 +12,12 @@
   <ion-list>
     <button
       ion-item
-      *ngFor="let quoteGroup of quoteCollection"
-      [navPush]="quotePage"
-      [navParams]="quoteGroup">
-      <ion-icon [name]="quoteGroup.icon" item-left></ion-icon>
-      <h2>{{ quoteGroup.category | uppercase }}</h2>
-      <p>{{ quoteGroup.quotes.length }} Quotes</p>
+      *ngFor="let quotesGroup of quotesCollection"
+      [navPush]="quotesPage"
+      [navParams]="quotesGroup">
+      <ion-icon [name]="quotesGroup.icon" item-left></ion-icon>
+      <h2>{{ quotesGroup.category | uppercase }}</h2>
+      <p>{{ quotesGroup.quotes.length }} Quotes</p>
     </button>
   </ion-list>
 </ion-content>
